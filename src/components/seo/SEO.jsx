@@ -43,3 +43,5 @@ export default function SEO({
     </Helmet>
   );
 }
+
+// Note: register domain Nepal is not working right now so this seo will not work right now.
