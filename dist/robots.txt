@@ -1,0 +1,7 @@
+# robots.txt for https://joshiaaditya.com.np
+# https://www.robotstxt.org/robotstxt.html
+ 
+User-agent: *
+Allow: /
+ 
+Sitemap: https://www.joshiaaditya.com.np/sitemap.xml
