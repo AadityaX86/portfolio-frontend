@@ -19,7 +19,7 @@ export default function SEO({
 }) {
   const siteTitle = "Aaditya Joshi";
   const fullTitle = title ? `${title} – ${siteTitle}` : `${siteTitle} – Software Engineer`;
-  const canonical = `https://joshiaaditya.com.np${path}`;
+  const canonical = `https://www.joshiaaditya.com.np${path}`;
 
   return (
     <Helmet>
@@ -33,15 +33,13 @@ export default function SEO({
       {description && <meta property="og:description" content={description} />}
       <meta property="og:type" content={type} />
       <meta property="og:url" content={canonical} />
-      <meta property="og:image" content={`https://joshiaaditya.com.np${image}`} />
+      <meta property="og:image" content={`https://www.joshiaaditya.com.np${image}`} />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       {description && <meta name="twitter:description" content={description} />}
-      <meta name="twitter:image" content={`https://joshiaaditya.com.np${image}`} />
+      <meta name="twitter:image" content={`https://www.joshiaaditya.com.np${image}`} />
     </Helmet>
   );
 }
-
-// Note: register domain Nepal is not working right now so this seo will not work right now.
