@@ -4,4 +4,4 @@
 User-agent: *
 Allow: /
  
-Sitemap: https://joshiaaditya.com.np/sitemap.xml
+Sitemap: https://www.joshiaaditya.com.np/sitemap.xml
