@@ -83,7 +83,7 @@ export default function HomePage() {
           <h1 className="text-4xl sm:text-5xl font-bold text-ink-primary mb-5">
             Aaditya Joshi
             <span className="block text-ink-secondary font-normal text-2xl sm:text-3xl mt-2">
-              Software & ML Engineer
+              Software Engineer
             </span>
           </h1>
           <p className="text-ink-secondary max-w-2xl mb-8 text-justify">
